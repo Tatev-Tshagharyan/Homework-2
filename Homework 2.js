@@ -87,7 +87,19 @@ if (a==0){
 }
 
 
-                                                                              //homework 7
+
+let n=+prompt();            //homework 6
+let i=0;
+let j=0;
+if((n%2===0) && (!Math.floor(n/10))){
+    i+=1;
+}
+if((n % 3===0) && (n%10===1)){
+    j+=1;
+}
+
+
+                                                                         //homework 7
 let figureName=prompt("Please choose figure name.triangle or rectangular?");
 if (figureName==="triangle"){
     let answ1=+prompt("Wright height of the triangle");
